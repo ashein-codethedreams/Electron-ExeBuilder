@@ -1,4 +1,6 @@
 const { app, BrowserWindow } = require("electron");
+const path = require("path");
+const isDev = require("electron-is-dev");
 
 let mainWindow;
 
@@ -11,7 +13,7 @@ function createWindow() {
     },
   });
 
-  mainWindow.loadURL("http://localhost:3000"); // Assuming your Next.js app runs on this port
+  mainWindow.loadURL("http://localhost:3000"); // Your IP and Development server
 
   mainWindow.on("closed", () => {
     mainWindow = null;

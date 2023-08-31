@@ -1,7 +1,7 @@
 {
-  "name": "electron",
+  "name": "rsa-lms-admin",
   "version": "1.0.0",
-  "description": "This is electron testing app",
+  "description": "This is RSA LMS admin web app for testing",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,7 +27,7 @@
     "electron",
     "next.js"
   ],
-  "author": "AMM",
+  "author": "DigitalBase",
   "license": "ISC",
   "devDependencies": {
     "@electron-forge/cli": "^6.4.1",
@@ -40,6 +40,7 @@
     "electron-builder": "^24.6.3"
   },
   "dependencies": {
+    "electron-is-dev": "^2.0.0",
     "electron-squirrel-startup": "^1.0.0"
   }
 }
